@@ -47,3 +47,22 @@ vendor/three.core.js    three.js çekirdek (three.module.js bağımlılığı)
 
 Konsolda `window.SAHNE` hazır sahne nesnelerini, `bilgi()`, `olc(ms)` ve `olcCpu(n)`
 ölçümlerini sunar; CDP tabanlı doğrulama betikleri bunu kullanır.
+
+## Doğrulama (canlı yayın)
+
+`arac/cdp_dogrula.py` gerçek Chrome'u CDP ile sürerek canlı URL'yi ölçer
+(`python3 arac/cdp_dogrula.py --url https://jilazem.github.io/halo-ustu/ --outdir KANIT`).
+Ham çıktı: `KANIT/cdp-dogrulama.json`, kareler: `KANIT/canli-genis.png`,
+`KANIT/canli-mobil.png`, özet: `KANIT/rapor.md`.
+
+| Ölçüm | Sonuç |
+|---|---|
+| HTTP | `/` 200, `src/*.js` 200, `vendor/three.module.js` 200 (658 KB) |
+| WebGL | WebGL 2.0 (OpenGL ES 3.0 Chromium), 1600×900, 9/9 örnek piksel siyah değil |
+| Kare hızı | 1600×900'de 60.1 fps / 16.6 ms; 390×844'te 60.2 fps |
+| CPU çizim | 0.39 ms/kare, 412 çizim çağrısı, 415 170 üçgen |
+| Kontroller | orbit, tekerlek, WASD, Q/E, Shift 4×, 1–9/0 görünümleri, V sinema: hepsi kamerayı değiştirdi |
+| Konsol | istisna yok; yalnız `THREE.Clock` kullanımdan kaldırma uyarısı ve `favicon.ico` 404 |
+
+Not: ölçüm macOS Chrome ile yapılmıştır; Win11 tarayıcı sınaması ayrıca gerekir.
+

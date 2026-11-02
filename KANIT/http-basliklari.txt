@@ -1,0 +1,130 @@
+===== https://jilazem.github.io/halo-ustu/ =====
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Mon, 02 Nov 2026 19:08:24 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae8dfa8-967"
+expires: Mon, 02 Nov 2026 19:18:34 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 9E88:1547:553049A:55DF59A:6AE8DFA9
+x-github-edge-region: fra
+accept-ranges: bytes
+date: Mon, 02 Nov 2026 19:08:57 GMT
+via: 1.1 varnish
+age: 23
+x-served-by: cache-sof1510039-SOF
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1793646537.256952,VS0,VE7
+vary: Accept-Encoding
+x-fastly-request-id: 43f84fa3cdf8c016c6a5035a7fcf52ddabb9fb61
+content-length: 2407
+
+
+===== https://jilazem.github.io/halo-ustu/index.html =====
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Mon, 02 Nov 2026 19:08:23 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae8dfa7-967"
+expires: Mon, 02 Nov 2026 19:18:57 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 7814:1671B0:20FEE56:213A8CC:6AE8DFC5
+x-github-edge-region: fra
+accept-ranges: bytes
+age: 0
+date: Mon, 02 Nov 2026 19:08:57 GMT
+via: 1.1 varnish
+x-served-by: cache-sof1510039-SOF
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793646537.363473,VS0,VE138
+vary: Accept-Encoding
+x-fastly-request-id: 38ab4f0cfa6bee8426e72550a3b04ac87cc58817
+content-length: 2407
+
+
+===== https://jilazem.github.io/halo-ustu/src/main.js =====
+HTTP/2 200 
+server: GitHub.com
+content-type: application/javascript; charset=utf-8
+last-modified: Mon, 02 Nov 2026 19:08:24 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae8dfa8-20c6"
+expires: Mon, 02 Nov 2026 19:18:57 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 8CF0:E8617:20C8BF3:210463B:6AE8DFC9
+x-github-edge-region: fra
+accept-ranges: bytes
+date: Mon, 02 Nov 2026 19:08:57 GMT
+via: 1.1 varnish
+age: 0
+x-served-by: cache-sof1510042-SOF
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793646538.597822,VS0,VE142
+vary: Accept-Encoding
+x-fastly-request-id: 176acd6e1f14fe84b7fbbe8528ccbcf0deba3a62
+content-length: 8390
+
+
+===== https://jilazem.github.io/halo-ustu/vendor/three.module.js =====
+HTTP/2 200 
+server: GitHub.com
+content-type: application/javascript; charset=utf-8
+last-modified: Mon, 02 Nov 2026 19:08:23 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae8dfa7-a0dd4"
+expires: Mon, 02 Nov 2026 19:18:57 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 43D6:3EDCF:20BB7A3:20F72C9:6AE8DFC9
+x-github-edge-region: fra
+accept-ranges: bytes
+age: 0
+date: Mon, 02 Nov 2026 19:08:57 GMT
+via: 1.1 varnish
+x-served-by: cache-sof1510021-SOF
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793646538.832340,VS0,VE152
+vary: Accept-Encoding
+x-fastly-request-id: aa5533c3ea3cb172ac1229faa771eb1d6267848d
+content-length: 658900
+
+
+===== https://jilazem.github.io/halo-ustu/vendor/three.core.js =====
+HTTP/2 200 
+server: GitHub.com
+content-type: application/javascript; charset=utf-8
+last-modified: Mon, 02 Nov 2026 19:08:24 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae8dfa8-1680ef"
+expires: Mon, 02 Nov 2026 19:18:58 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 29EC:369263:2076B07:20B2523:6AE8DFC9
+x-github-edge-region: fra
+accept-ranges: bytes
+age: 0
+date: Mon, 02 Nov 2026 19:08:58 GMT
+via: 1.1 varnish
+x-served-by: cache-sof1510038-SOF
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793646538.078488,VS0,VE196
+vary: Accept-Encoding
+x-fastly-request-id: 44ccc2766dcdfdc4e0233ad7d699f780cd1ac601
+content-length: 1474799
+
+

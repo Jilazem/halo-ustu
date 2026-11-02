@@ -1,0 +1,476 @@
+{
+ "url": "https://jilazem.github.io/halo-ustu/",
+ "zaman": "2026-11-02 22:50:15",
+ "port": "9333",
+ "headless": false,
+ "tarayici": {
+  "Browser": "Chrome/156.0.8078.80",
+  "File-Path-Style": "posix",
+  "Protocol-Version": "1.3",
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "V8-Version": "15.6.75.27",
+  "WebKit-Version": "537.36 (@fb096c0011f9d50f0a264a9376420cdea9c421e3)",
+  "webSocketDebuggerUrl": "ws://127.0.0.1:9333/devtools/browser/fd5fea87-e407-413f-9194-da81351a6c68"
+ },
+ "hazir": true,
+ "bilgi": {
+  "kare": 69,
+  "fps": 60.18,
+  "ms": 16.62,
+  "cozunurluk": "1600x900",
+  "dpr": 1,
+  "cizimCagrisi": 412,
+  "ucgen": 415170,
+  "dokular": 11,
+  "geometri": 196,
+  "bulut": {
+   "cozunurluk": [
+    400,
+    225
+   ],
+   "adim": 30,
+   "birikim": 24
+  },
+  "gorunum": "GENIS ACI — bulut denizi",
+  "sinema": false,
+  "kamera": [
+   -187.7,
+   102.7,
+   164.9
+  ],
+  "hatalar": []
+ },
+ "href": "https://jilazem.github.io/halo-ustu/",
+ "ekran": [
+  1600,
+  900,
+  1,
+  1600,
+  900
+ ],
+ "hata_kutusu": "",
+ "gl": {
+  "gl2": true,
+  "surum": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+  "renderer": "WebKit WebGL",
+  "saglayici": "WebKit WebGL",
+  "boyut": [
+   1600,
+   900
+  ],
+  "ornekler": [
+   [
+    800,
+    450,
+    [
+     66,
+     55,
+     48
+    ]
+   ],
+   [
+    400,
+    225,
+    [
+     31,
+     33,
+     41
+    ]
+   ],
+   [
+    1200,
+    225,
+    [
+     45,
+     51,
+     65
+    ]
+   ],
+   [
+    400,
+    675,
+    [
+     27,
+     27,
+     33
+    ]
+   ],
+   [
+    1200,
+    675,
+    [
+     86,
+     74,
+     80
+    ]
+   ],
+   [
+    10,
+    10,
+    [
+     31,
+     38,
+     54
+    ]
+   ],
+   [
+    1590,
+    890,
+    [
+     41,
+     43,
+     53
+    ]
+   ],
+   [
+    10,
+    890,
+    [
+     35,
+     39,
+     52
+    ]
+   ],
+   [
+    1590,
+    10,
+    [
+     32,
+     39,
+     54
+    ]
+   ]
+  ],
+  "siyahOlmayan": 9
+ },
+ "fps": {
+  "fps": 60.14,
+  "ms": 16.63,
+  "kare": 181,
+  "sure": 3.01,
+  "cozunurluk": "1600x900",
+  "dpr": 1,
+  "bulutCozunurluk": [
+   400,
+   225
+  ],
+  "bulutAdim": 30
+ },
+ "kare_sayaci": {
+  "bas": 258,
+  "son": 439
+ },
+ "olcCpu": {
+  "ms": 0.39,
+  "fps": 2597.4,
+  "n": 20,
+  "cozunurluk": "1600x900",
+  "dpr": 1,
+  "cizimCagrisi": 412,
+  "ucgen": 415170,
+  "bulutCozunurluk": [
+   400,
+   225
+  ],
+  "bulutAdim": 30
+ },
+ "kontroller": {
+  "surukle_orbit": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -239,
+    42.3,
+    -28.6
+   ],
+   "calisti": true
+  },
+  "tekerlek_zoom": {
+   "once": [
+    -239,
+    42.3,
+    -28.6
+   ],
+   "sonra": [
+    -301,
+    24.7,
+    -36.1
+   ],
+   "calisti": true
+  },
+  "tus_W": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -94.3,
+    102.7,
+    82.9
+   ],
+   "calisti": true,
+   "yol_m": 124.3
+  },
+  "tus_A": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -210.9,
+    102.7,
+    138.6
+   ],
+   "calisti": true,
+   "yol_m": 35.1
+  },
+  "tus_S": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -214.1,
+    102.7,
+    188.1
+   ],
+   "calisti": true,
+   "yol_m": 35.1
+  },
+  "tus_D": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -164.9,
+    102.7,
+    190.9
+   ],
+   "calisti": true,
+   "yol_m": 34.6
+  },
+  "tus_Q": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -187.7,
+    136.5,
+    164.9
+   ],
+   "calisti": true,
+   "yol_m": 33.8
+  },
+  "tus_E": {
+   "once": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "sonra": [
+    -187.7,
+    70.2,
+    164.9
+   ],
+   "calisti": true,
+   "yol_m": 32.5
+  },
+  "shift_hiz": {
+   "normal_m": 35.0,
+   "shift_m": 141.9
+  },
+  "gorunumler": [
+   {
+    "tus": "1",
+    "gorunum": "GENIS ACI — bulut denizi",
+    "kamera_degisti": true,
+    "kamera": [
+     -187.7,
+     102.7,
+     164.9
+    ],
+    "hud_etiketi": "GENIS ACI — bulut denizi"
+   },
+   {
+    "tus": "2",
+    "gorunum": "HALKA YAKIN — köprü ağzı",
+    "kamera_degisti": true,
+    "kamera": [
+     -111.8,
+     110.9,
+     43.5
+    ],
+    "hud_etiketi": "HALKA YAKIN — köprü ağzı"
+   },
+   {
+    "tus": "3",
+    "gorunum": "BULUT DENIZI — alçak açı",
+    "kamera_degisti": true,
+    "kamera": [
+     324,
+     -77.1,
+     528.5
+    ],
+    "hud_etiketi": "BULUT DENIZI — alçak açı"
+   },
+   {
+    "tus": "4",
+    "gorunum": "KULE DİBİ — yukarı bakış",
+    "kamera_degisti": true,
+    "kamera": [
+     -103.6,
+     123.3,
+     137
+    ],
+    "hud_etiketi": "KULE DİBİ — yukarı bakış"
+   },
+   {
+    "tus": "5",
+    "gorunum": "GÖL KIYISI",
+    "kamera_degisti": true,
+    "kamera": [
+     0,
+     19.6,
+     266.6
+    ],
+    "hud_etiketi": "GÖL KIYISI"
+   },
+   {
+    "tus": "6",
+    "gorunum": "ÇATI — halka üstü",
+    "kamera_degisti": true,
+    "kamera": [
+     -66.9,
+     147.4,
+     53.1
+    ],
+    "hud_etiketi": "ÇATI — halka üstü"
+   },
+   {
+    "tus": "7",
+    "gorunum": "UZAK — atmosfer",
+    "kamera_degisti": true,
+    "kamera": [
+     -305.1,
+     195.2,
+     835.8
+    ],
+    "hud_etiketi": "UZAK — atmosfer"
+   },
+   {
+    "tus": "8",
+    "gorunum": "ALT — halka altı",
+    "kamera_degisti": true,
+    "kamera": [
+     -24.3,
+     31.2,
+     160.7
+    ],
+    "hud_etiketi": "ALT — halka altı"
+   },
+   {
+    "tus": "9",
+    "gorunum": "KULE 2 — kar hattı",
+    "kamera_degisti": true,
+    "kamera": [
+     234.8,
+     193.5,
+     89.9
+    ],
+    "hud_etiketi": "KULE 2 — kar hattı"
+   },
+   {
+    "tus": "0",
+    "gorunum": "KÖPRÜ 2",
+    "kamera_degisti": true,
+    "kamera": [
+     40,
+     125.3,
+     98.1
+    ],
+    "hud_etiketi": "KÖPRÜ 2"
+   }
+  ],
+  "sinema_V": {
+   "acik": true,
+   "kamera_degisti": true,
+   "once": [
+    40,
+    125.3,
+    98.1
+   ],
+   "sonra": [
+    -262.8,
+    -13.5,
+    287.5
+   ],
+   "kapatildi": false
+  }
+ },
+ "konsol": [
+  "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+  "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+ ],
+ "istisna": [],
+ "log": [
+  "error: Failed to load resource: the server responded with a status of 404 () https://jilazem.github.io/favicon.ico"
+ ],
+ "sahne_hatalar": [],
+ "kare_genis": {
+  "yol": "/Volumes/EX/007-HERMES-M4-LIVE/20-HERMES/cache/scratch/halo-ustu-yayin/KANIT/canli-genis.png",
+  "bayt": 1613184
+ },
+ "mobil": {
+  "hazir": true,
+  "bilgi": {
+   "kare": 255,
+   "fps": 60.23,
+   "ms": 16.6,
+   "cozunurluk": "390x844",
+   "dpr": 1.5,
+   "cizimCagrisi": 407,
+   "ucgen": 415026,
+   "dokular": 11,
+   "geometri": 192,
+   "bulut": {
+    "cozunurluk": [
+     97,
+     211
+    ],
+    "adim": 30,
+    "birikim": 24
+   },
+   "gorunum": "GENIS ACI — bulut denizi",
+   "sinema": false,
+   "kamera": [
+    -187.7,
+    102.7,
+    164.9
+   ],
+   "hatalar": []
+  },
+  "ekran": [
+   390,
+   844,
+   2,
+   585,
+   1266
+  ]
+ },
+ "kare_mobil": {
+  "yol": "/Volumes/EX/007-HERMES-M4-LIVE/20-HERMES/cache/scratch/halo-ustu-yayin/KANIT/canli-mobil.png",
+  "bayt": 1182515
+ },
+ "konsol_mobil": [],
+ "istisna_mobil": []
+}
