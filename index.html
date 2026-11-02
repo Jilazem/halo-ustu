@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HALO ÜSTÜ — bulut denizinin üzerinde halka restoran</title>
+<style>
+  :root{ --sicak:#ffb066; --soguk:#8fb4e8; }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html,body{ height:100%; background:#05070c; overflow:hidden;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; color:#dfe7f2; }
+  #tuval{ position:fixed; inset:0; width:100%; height:100%; display:block; touch-action:none; }
+  #hud{ position:fixed; left:18px; bottom:16px; font-size:11px; line-height:1.7;
+    letter-spacing:.06em; color:#9fb0c8; text-shadow:0 1px 6px #000a; pointer-events:none;
+    opacity:0; transition:opacity .8s ease .4s; }
+  #hud.acik{ opacity:1; }
+  #hud b{ color:var(--sicak); font-weight:600; }
+  #hud .olcum{ color:#cfe0f5; }
+  #gorunumAdi{ position:fixed; left:18px; top:16px; font-size:11px; letter-spacing:.14em;
+    color:#c8d6ea; text-transform:uppercase; opacity:0; transition:opacity .6s; pointer-events:none; }
+  #gorunumAdi.acik{ opacity:.85; }
+  #yukleme{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+    background:#05070c; z-index:10; transition:opacity .9s ease; font-size:11px;
+    letter-spacing:.28em; color:#8d9fb8; text-transform:uppercase; }
+  #yukleme.kapali{ opacity:0; pointer-events:none; }
+  #yukleme .nokta{ animation:nabiz 1.4s ease-in-out infinite; }
+  @keyframes nabiz{ 0%,100%{opacity:.25} 50%{opacity:1} }
+  #hata{ position:fixed; left:0; right:0; top:0; padding:10px 14px; background:#2a0d0d;
+    color:#ffb3b3; font-size:12px; white-space:pre-wrap; display:none; z-index:20; }
+</style>
+</head>
+<body>
+<canvas id="tuval"></canvas>
+<div id="gorunumAdi"></div>
+<div id="hud">
+  <div><b>HALO ÜSTÜ</b> — mavi saat / bulut denizi</div>
+  <div class="olcum"><span id="fps">--</span> fps · <span id="ms">--</span> ms · <span id="coz">--</span></div>
+  <div>1-9,0 görünüm · sürükle döndür · tekerlek/iki parmak yaklaş · <b>WASD</b> gez · <b>Q/E</b> yüksel-alçal · <b>Shift</b> hız · <b>V</b> sinema</div>
+</div>
+<div id="yukleme"><span>sahne kuruluyor<span class="nokta">…</span></span></div>
+<div id="hata"></div>
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js" } }
+</script>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
