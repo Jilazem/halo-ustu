@@ -144,6 +144,14 @@ function dongu() {
     el('fps').textContent = ort.toFixed(1);
     el('ms').textContent = ortMs.toFixed(1);
     el('coz').textContent = G + '×' + Y + ' @' + dpr.toFixed(2);
+    // tuşla seçilen görünüm adı HUD'da da görünsün (controls.js kendi iç
+    // gorunumAyarla'sını çağırdığı için main.js sarmalayıcısı atlanıyor).
+    const gEtiket = el('gorunumAdi');
+    const gAd = kontroller.durum.gorunumAdi;
+    if (gEtiket.textContent !== gAd) {
+      gEtiket.textContent = gAd;
+      gEtiket.classList.add('acik');
+    }
   }
 }
 
